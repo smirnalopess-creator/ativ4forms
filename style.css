@@ -1,0 +1,35 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    margin: 0;
+    background: white;
+    color: black;
+}
+
+header {
+    background: #1565c0;
+    color: white;
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.carro {
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+.dark {
+    background: #222;
+    color: white;
+}
+
+.dark .carro {
+    border-color: white;
+}
